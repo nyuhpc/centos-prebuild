@@ -1,0 +1,10 @@
+name: centos8-testing
+title: InSpec Profile
+maintainer: Flannon Jackson
+copyright: Flannon Jackson
+copyright_email: flannon@nyu.edu
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+supports:
+  platform: os

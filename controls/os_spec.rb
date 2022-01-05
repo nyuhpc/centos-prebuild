@@ -20,6 +20,6 @@ control "os-01" do                        # A unique ID for this control
     it { should be_readable.by('owner') }
     it { should be_readable.by('group') }
     it { should be_readable.by('other') }
-    its('content') { should match( 'CentOS Linux release 8.4.2105')}
+    its('content') { should match( 'CentOS Linux release 8.5.2111')}
   end
 end
